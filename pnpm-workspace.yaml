@@ -4,5 +4,7 @@ allowBuilds:
   core-js-pure: true
   deasync: true
   ejs: true
-  node-sass: true
   yorkie: true
+
+overrides:
+  sass-loader>node-sass: npm:sass@^1.108.2
